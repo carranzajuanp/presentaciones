@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "Handbook BID.html#complete-contents",
+    "href": "Handbook BID.html#complete-contents",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nValue homogenization: Application of spatial statistical models to discount the effects of intrinsic features of each market data."
+  },
+  {
+    "objectID": "Handbook BID.html#complete-contents-1",
+    "href": "Handbook BID.html#complete-contents-1",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nSpatial outliers detection: Different indexes for detecting outlier observations in their neighborhood."
+  },
+  {
+    "objectID": "Handbook BID.html#complete-contents-2",
+    "href": "Handbook BID.html#complete-contents-2",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\nCalculation of independent territorial variables: Process of geographical calculations for the generation of variables with potential to explain the price of real estate. These variables summarize the characteristics of the neighborhood and the relative location (distances) of each market observation and each parcel in the city."
+  },
+  {
+    "objectID": "Handbook BID.html#complete-contents-3",
+    "href": "Handbook BID.html#complete-contents-3",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\nEntraniamiento de algoritmos y validación del error"
+  },
+  {
+    "objectID": "Handbook BID.html#complete-contents-4",
+    "href": "Handbook BID.html#complete-contents-4",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\nPredicción del precio de los inmuebles para toda el área urbana"
+  },
+  {
+    "objectID": "Handbook BID.html#complete-contents-5",
+    "href": "Handbook BID.html#complete-contents-5",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\nAplicación de diferentes ciudades de américa latina"
+  },
+  {
+    "objectID": "Handbook BID.html#complete-contents-6",
+    "href": "Handbook BID.html#complete-contents-6",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\nOtras aplicaciones fiscales: land value capture"
+  },
+  {
+    "objectID": "Handbook BID.html#complete-contents-7",
+    "href": "Handbook BID.html#complete-contents-7",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\nVentajas y desventajas en relación a otras técnicas"
+  },
+  {
+    "objectID": "Handbook BID.html#complete-contents-8",
+    "href": "Handbook BID.html#complete-contents-8",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\nConsideraciones sobre gobernanza algorítmica"
+  },
+  {
+    "objectID": "Handbook BID.html",
+    "href": "Handbook BID.html",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "",
+    "text": "Handbook: a step-by-step document that explains the methodological process of tax valuation of real estate using IA.\nToolkit: a library of functions (in the R programming language) that make it possible to carry out large-scale valuations in a relatively simple and cost-effective way."
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents",
+    "href": "Handbook IDB.html#complete-contents",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nAutomated valuation models (AVMs): A theoretical review and how they’ve evolved over time"
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-1",
+    "href": "Handbook IDB.html#complete-contents-1",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nValue homogenization: Application of spatial statistical models to discount the effects of intrinsic features of each market data."
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-2",
+    "href": "Handbook IDB.html#complete-contents-2",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nSpatial outliers detection: Different indexes for detecting outlier observations in their neighborhood."
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-3",
+    "href": "Handbook IDB.html#complete-contents-3",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nCalculation of independent territorial variables: Geographical calculations to generate variables with potential to explain land value. These variables summarize features of the neighborhood and the location of each market observation and parcel in the city."
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-4",
+    "href": "Handbook IDB.html#complete-contents-4",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nAlgorithm training and error estimation: Application of a variety of tree-based machine learning models and evaluation of out-of-sample prediction error."
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-5",
+    "href": "Handbook IDB.html#complete-contents-5",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nLand value prediction: Application of the best performing land value prediction model across the study area at the parcel or grid level."
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-6",
+    "href": "Handbook IDB.html#complete-contents-6",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nDeployment in different Latin American cities\n\n\n\n\n\n\n\n\n\nBuenos Aires (AR)\nCuritiba (BR)\nMedellín (CO)"
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-7",
+    "href": "Handbook IDB.html#complete-contents-7",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nOther tax applications: Use of the model for land value capture strategies"
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-8",
+    "href": "Handbook IDB.html#complete-contents-8",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nAnalysis of different alternatives (from a public policy perspective): Machine learning versus standard approaches. \n\n\n\n\n\n\n\n\n\n\n\n\n\nModel\nCI lower\nMAPE\nCI upper\nRMSE\nPercent Bias\nR2\n\n\n\n\nQuantile Regression Forest\n0.180\n0.214\n0.249\n233.886\n-0.104\n0.678\n\n\nLinear Model\n0.565\n0.614\n0.664\n319.062\n-0.249\n0.438\n\n\nOrdinary Kriging\n0.242\n0.493\n0.744\n689.205\n-0.166\n0.161"
+  },
+  {
+    "objectID": "Handbook IDB.html",
+    "href": "Handbook IDB.html",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "",
+    "text": "Handbook: a step-by-step document that explains the methodological process of tax valuation of real estate using IA.\nToolkit: a library of functions (in the R programming language) that make it possible to carry out large-scale valuations in a relatively simple and cost-effective way."
+  },
+  {
+    "objectID": "presentacion.html#objetivos",
+    "href": "presentacion.html#objetivos",
+    "title": "Inteligencia Artificial e Impuesto a la Propiedad",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nPublicar un Handbook que sistematice el proceso de realización de valuaciones masivas según los estándares internacionales en la materia.\nConfeccionar un Toolkit que facilite la implementación de estas herramientas para gobiernos locales de la región, sin necesidad de grandes inversiones en infraestructura tecnológica."
+  },
+  {
+    "objectID": "presentacion.html#handbook-of-ai-powered-property-tax-valuations",
+    "href": "presentacion.html#handbook-of-ai-powered-property-tax-valuations",
+    "title": "Inteligencia Artificial e Impuesto a la Propiedad",
+    "section": "Handbook of AI-powered property tax valuations",
+    "text": "Handbook of AI-powered property tax valuations\nA partir de la tesis de doctorado de JPC, se plantean los siguientes capítulos.\n\nIntro (a redactar desde cero)\nModelos de valuación masiva automatizada (ya redactado)\nObtención de muestras de mercado (observatorios de valores, a redactar desde cero)\nHomogeneización de valores (ya redactado)\nEntrenamiento de algoritmos para la predicción del precio de los inmuebles (ya redactado)\nImplicancias de diferentes alternativas técnicas para la valuación masiva de la tierra urbana (ya redactado)\nEl potencial de los datos abiertos. Predicción del precio del suelo en diferentes ciudades latinoamericanas (ya redactado)\nImpacto potencial en la recaudación del impuesto a la propiedad y en la equidad tributaria (a redactar desde cero)\nUtilización de modelos para la captura de externalidades (ya redactado)\nConsideraciones sobre gobernanza algorítmica (ya redactado, ver si queda)\nConsideraciones finales (a revisar)"
+  },
+  {
+    "objectID": "presentacion.html#toolkit-for-ai-powered-property-tax-valuations",
+    "href": "presentacion.html#toolkit-for-ai-powered-property-tax-valuations",
+    "title": "Inteligencia Artificial e Impuesto a la Propiedad",
+    "section": "Toolkit for AI-powered property tax valuations",
+    "text": "Toolkit for AI-powered property tax valuations\nDesarrollo de una librería en el lenguaje de programación R, compuesta por las siguientes funciones para cubrir de manera simple los pasos del modelo propuesto de avalúo masivo:\n\nCálculo de variables de distancias de diferentes hitos urbanos: A partir de la inclusión de una capa geográfica con algún hito urbano de interés, la función calculará para toda el área de estudio las respectivas distancias euclidianas (en metros lineales).\nCálculo de variables de entorno de diferentes hitos urbanos: A partir de la inclusión de una capa geográfica con algún hito urbano de interés, la función calculará para toda el área de estudio la cantidad de features (o su porcentaje) en un entorno lineal definido por el usuario.\nHomogeneización de valores: A partir de la inclusión de una capa geográfica con una muestra de datos de mercado, la función realiza el proceso de homogeneización para descontar efectos intrínsecos a cada propiedad, como su ubicación en la cuadra, forma del lote, antiguedad de las edificaciones, superficie, entre otras definidas por el usuario.\nEntrenamiento de algoritmos de ML para la predicción de valores: La función facilita el entrenamiento de modelos a machine learning para la predicción de los valores de los inmuebles a partir de una muestra de mercado y diferentes variables territoriales. Permite, además, la cuantificación del error esperado y la selección del modelo de mejor desempeño."
+  },
+  {
+    "objectID": "presentacion.html#referencias",
+    "href": "presentacion.html#referencias",
+    "title": "Inteligencia Artificial e Impuesto a la Propiedad",
+    "section": "Referencias",
+    "text": "Referencias"
+  },
+  {
+    "objectID": "mapa.html",
+    "href": "mapa.html",
+    "title": "Presentación JPC",
+    "section": "",
+    "text": "Linking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1; sf_use_s2() is TRUE\n\n\nReading layer `prediccion_qrf' from data source \n  `/home/juan/Documentos/Tesis/2023/procesado en la nube/prediccion_qrf.gpkg' \n  using driver `GPKG'\nSimple feature collection with 359905 features and 22 fields\nGeometry type: POLYGON\nDimension:     XY\nBounding box:  xmin: -7159045 ymin: -3701154 xmax: -7130839 ymax: -3672315\nProjected CRS: WGS 84 / Pseudo-Mercator\n\n\nData (c) OpenStreetMap contributors, ODbL 1.0. https://www.openstreetmap.org/copyright\n\n\nLoading required package: sp\n\n\n\nAttaching package: 'fasterize'\n\n\nThe following object is masked from 'package:graphics':\n\n    plot\n\n\nThe following object is masked from 'package:base':\n\n    plot\n\n\ntmap mode set to interactive viewing"
+  },
+  {
+    "objectID": "Handbook IDB.html#complete-contents-9",
+    "href": "Handbook IDB.html#complete-contents-9",
+    "title": "Proposal: Handbook on AI applied to property tax valuations in Latin America",
+    "section": "Complete contents",
+    "text": "Complete contents\n\n\nImpact on Governance:\n\nConcerns about moving contestable issues into a space of reduced negotiability. The problems of power (surveillance) + discrimination (social bias + algorithmic bias)."
+  }
+]
