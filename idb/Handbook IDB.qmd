@@ -1,0 +1,184 @@
+---
+title: "Proposal: \n Handbook on AI applied to property tax valuations in Latin America"
+format: 
+  revealjs:
+    theme: jpc.scss
+    scrollable: true
+editor: visual
+author:
+  - name: "Juan Pablo Carranza"
+    id: jp
+    orcid: 0000-0003-4793-1323
+    email: juan.carranza@unc.edu.ar
+   
+citation: true
+---
+
+# What do we propose?
+
+-   **Handbook**: a step-by-step document that explains the methodological process of tax valuation of real estate using IA.
+
+-   **Toolkit**: a library of functions (in the R programming language) that make it possible to carry out large-scale valuations in a relatively simple and cost-effective way.
+
+# What do we have?
+
+-   PhD thesis: Basis on which the document can be written.
+
+-   Introduction and theoretical framework written in very specific academic language, **needs revision**.
+
+-   Technical-methodological process written step-by-step, **completed, suitable for reuse**.
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+1.  **Automated valuation models (AVMs)**: A theoretical review and how they've evolved over time
+:::
+
+![](avm.png){fig-align="center"}
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+2.  **Value homogenization**: Application of spatial statistical models to discount the effects of intrinsic features of each market data.
+:::
+
+![](diagrama_vut_2.png){fig-align="center"}
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+3.  **Spatial outliers detection**: Different indexes for detecting outlier observations in their neighborhood.
+:::
+
+![](outliers.png){fig-align="center"}
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+4.  **Calculation of independent territorial variables**: Geographical calculations to generate variables with potential to explain land value. These variables summarize features of the neighborhood and the location of each market observation and parcel in the city.
+
+|                    |                  |
+|--------------------|------------------|
+| ![](distancia.png) | ![](entorno.png) |
+:::
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+5.  **Algorithm training and error estimation**: Application of a variety of tree-based machine learning models and evaluation of out-of-sample prediction error.
+:::
+
+![](tree.png){fig-align="center"}
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+6.  **Land value prediction**: Application of the best performing land value prediction model across the study area at the parcel or grid level.
+:::
+
+```{r setup, include=TRUE, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center', fig.height=4.5, fig.width=10.5}
+suppressMessages(library(sf))
+datos = st_read("~/Documentos/Tesis/2023/procesado en la nube/prediccion_qrf.gpkg",
+                quiet = TRUE)
+suppressMessages(library(nominatimlite))
+suppressMessages(library(osmdata))
+area_de_estudio <- geo_lite_sf(address = "Cordoba, Argentina", points_only = F)
+area_de_estudio = st_transform(area_de_estudio, 3857)
+suppressMessages(library(raster))
+r <- raster(area_de_estudio, res = 10)
+datos = datos[,c("vut")]
+library(fasterize)
+# r <- fasterize(datos, r)
+var = fasterize(datos, r, field = "vut", fun = "first")
+library(tmap)
+library(tmaptools)
+tmap_mode('view')
+library(RColorBrewer)
+col <- rev(brewer.pal(7, "Spectral"))
+mapas <- tm_basemap(c(OSM = "OpenStreetMap.DE")) +
+  tm_shape(var) +
+  tm_raster(title = "VUT",
+            palette =col,
+            legend.show = TRUE,
+            n=7,
+            alpha = 0.8,
+            group= "VUT",
+            breaks = c(quantile(datos$vut, probs=seq(0,1,1/7))))
+mapas
+```
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+7.  **Deployment in different Latin American cities**
+
+| Buenos Aires (AR)                     | Curitiba (BR)                             | Medellín (CO)                             |
+|------------------------|------------------------|------------------------|
+| ![](prediccion_caba.png){width="306"} | ![](prediccion_curitiba.png){width="306"} | ![](prediccion_medellin.png){width="306"} |
+:::
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+8.  **Other tax applications: Use of the model for land value capture strategies**
+
+![](capture_2.png){fig-align="center" width="70%"}
+:::
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+9.  **Analysis of different alternatives (from a public policy perspective)**: Machine learning versus standard approaches. <br></br>
+
+| Model                          | **CI lower** | **MAPE** | **CI upper** | **RMSE** | **Percent Bias** | **R2** |
+|-----------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| **Quantile Regression Forest** |    0.180     |  0.214   |    0.249     | 233.886  |      -0.104      | 0.678  |
+| **Linear Model**               |    0.565     |  0.614   |    0.664     | 319.062  |      -0.249      | 0.438  |
+| **Ordinary Kriging**           |    0.242     |  0.493   |    0.744     | 689.205  |      -0.166      | 0.161  |
+:::
+:::
+
+::: {data-title=""}
+## Complete contents
+
+::: {style="font-size:32px"}
+10. **Impact on Governance**:
+
+Concerns about moving contestable issues into a space of reduced negotiability. The problems of power (surveillance) + discrimination (social bias + algorithmic bias).
+:::
+:::
+
+# What's missing?
+
+-   `New introduction`
+-   `New chapter: Link between property valuation strategies and fiscal policy. Much of this has been written by Huascar alone and in collaboration with many authors.`
+-   `Conclusions: they are relatively complete, but would need to be revised on the basis of the changes made to the text.`
+
+# Toolkit
+
+Library of functions in the R programming language, available in the Handbook itself, in the IDB Code4Dev portal, or both. The functions will cover:
+
+::: {style="font-size:30px"}
+-   `Homogenization of property prices.`
+-   `Detection of spatial outliers.`
+-   `Calculation of independent territorial variables.`
+-   `Training of algorithms and estimation of the prediction error.`
+-   `Prediction of the price of properties in the whole study area.`
+:::
