@@ -1,0 +1,37 @@
+---
+title: ""
+author: ""
+date: ""
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: no
+---
+<center>
+![](logo.png)
+</center>
+
+<!-- ```{css, echo=FALSE} -->
+<!-- #header { -->
+<!--   background: ![](logo.png); -->
+<!--   padding: .5em; -->
+<!-- } -->
+<!-- ``` -->
+
+
+<center>
+<font size="6"> 
+Ciencia de Datos en Sociedad - Módulo 3
+</font>
+</center>
+
+
+# Introducción al manejo de datos territoriales
+
+La librería **sf** en R implementa un manejo eficiente y estandarizado de datos espaciales utilizando el modelo de geometrías de características simples (o simple features), un estándar internacional definido por ISO 19125 y desarrollado por el Open Geospatial Consortium (OGC). Este modelo es ampliamente utilizado en herramientas de software geográfico como GeoJSON, ArcGIS, QGIS, PostGIS, MySQL Spatial Extensions, y Microsoft SQL Server, facilitando la interoperabilidad y el análisis de datos geoespaciales en diversos entornos.
+
+En R, el paquete **sf** proporciona una representación poderosa y flexible de datos espaciales vectoriales. Los objetos principales que maneja son extensiones de los clásicos data frames o tibbles, y están diseñados para facilitar la integración con otras herramientas de análisis de datos en R. Cada objeto del tipo sf incluye una columna especial denominada simple feature geometry list column, que almacena la geometría de cada observación en un formato tipo lista. Esta geometría se asocia con una o más variables adicionales (atributos) que describen cada entidad geográfica, lo que convierte cada fila en una simple feature o característica simple, compuesta tanto por sus atributos como por su estructura geométrica.
+
+Además, sf introduce una serie de funciones que permiten realizar transformaciones geométricas, operaciones topológicas y análisis espaciales de manera eficiente, aprovechando bibliotecas subyacentes como GEOS, GDAL y PROJ. Este enfoque no solo facilita la manipulación de datos geoespaciales, sino que también asegura una alta compatibilidad con los formatos y herramientas geográficas más utilizados a nivel global.
+
+Para comenzar, instalamos la librería y la cargamos a nuestro entorno de trabajo:
