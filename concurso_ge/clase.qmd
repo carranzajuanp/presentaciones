@@ -14,50 +14,39 @@ author:
 citation: true
 ---
 
-
 # Objetivos de la clase
 
-
 ::: {style="font-size:32px"}
+-   Comprender los contenidos de la Unidad 7 del Programa (particularmente del punto 7.6) mediante el análisis del impacto situado de la terciarización de la actividad económica, analizando diferentes escalas y diferentes territorios.
 
-* Comprender los contenidos de la Unidad 7 del Programa (particularmente del punto 7.6) mediante el análisis del impacto situado de la terciarización de la actividad económica, analizando diferentes escalas y diferentes territorios.
+-   Fortalecer la idea de la tensión permanente entre los costos y los beneficios sociales de este tipo de fenómenos, que impiden una consideración única mediante preceptos científicos y ubican su resolución en el plano de la política.
 
-* Fortalecer la idea de la tensión permanente entre los costos y los beneficios sociales de este tipo de fenómenos, que impiden una consideración única mediante preceptos científicos y ubican su resolución en el plano de la política.
-
-* Vincular estos conceptos con lo estudiado en unidades anteriores.
-
+-   Vincular estos conceptos con lo estudiado en unidades anteriores.
 :::
-
 
 ::: {data-title=""}
 ## A nivel intraurbano, recurrimos a Von Thünen...
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-(Unidad 4!)
-
+<br></br> <br></br> <br></br> <br></br> (Unidad 4!)
 :::
 
 ::: {data-title=""}
 ## A nivel interurbano, 2 escalas más de análisis...
 
 ::: {style="font-size:26px"}
-* **Suburbanización**: movimiento de las actividades económicas desde el centro de la ciudad (o los centros) hacia la periferia urbana (dentro de los límites de un mismo mercado laboral).
-* **Desconcentración o descongestión**: desplazamientos de las actividades económicas que exceden el perímetro suburbano, desde un centro urbano relevante hacia localidades menor jerarquía urbana dentro de su área de influencia (teoría de los lugares centrales de Christaller, Unidad 5!)
-* **Descentralización**: desplazamientos que rebasan el límite fijado por la desconcentración o descongestión, hacia regiones más alejadas o áreas de influencia de centros urbanos diferentes.
+-   **Suburbanización**: movimiento de las actividades económicas desde el centro de la ciudad (o los centros) hacia la periferia urbana (dentro de los límites de un mismo mercado laboral).
+-   **Desconcentración o descongestión**: desplazamientos de las actividades económicas que exceden el perímetro suburbano, desde un centro urbano relevante hacia localidades menor jerarquía urbana dentro de su área de influencia (teoría de los lugares centrales de Christaller, Unidad 5!)
+-   **Descentralización**: desplazamientos que rebasan el límite fijado por la desconcentración o descongestión, hacia regiones más alejadas o áreas de influencia de centros urbanos diferentes.
 
 **Se trata de límites difusos, de caracter normativo y utilidad exclusivamente conceptual, cuya extensión es sumamente dificil de definir de manera discreta y precisa en la práctica.**
 :::
 :::
 
-
-
-
 ::: {data-title=""}
 ### Todo depende del contexto..
+
 <center>
+
 ```{=html}
 <iframe src="https://ourworldindata.org/grapher/share-employment-agriculture-industry-services?country=OWID_WRL~DEU~BRA~ARG&tab=chart" loading="lazy" style="width: 70%; height: 700px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 ```
@@ -90,31 +79,25 @@ mapas <- tm_basemap(c(OSM = "OpenStreetMap.DE")) +
 mapas
 ```
 :::
-
 :::
-
-
-
 
 ::: {data-title=""}
 ### En consecuencia
+
 ::: {style="font-size:32px"}
 Un 40% del espacio urbano sólo es accesible para el 10% más rico...
 
 ![](lorenz_vivienda.png){fig-align="center" width="47%"}
-
-
 :::
 :::
-
 
 ::: {data-title=""}
 ### Los nómades digitales y la pospandemia.
+
 ::: {style="font-size:30px"}
 ¿Una nueva forma de gentrificación **rural** originada a partir de la terciarización superior?
 
 ![](nomads.png){fig-align="center" width="55%"}
-
 :::
 :::
 
@@ -126,13 +109,12 @@ Un 40% del espacio urbano sólo es accesible para el 10% más rico...
 :::
 
 ::: {style="font-size:30px"}
-
-* Aumento de rentas y traslado inducido de la población más vulnerable.
-* Financiarización de la tierra urbana en las áreas centrales y expansión de la mancha urbana.
-* Pérdida de la diversidad socioeconómica y cultural de la zona, así como la fragmentación de las comunidades.
-* Aumento de la desigualdad en el acceso a oportunidades urbanas.
-* Desaparición de empleos vinculados a la  existencia clústers de actividades tradicionales que son reemplazados por nuevas actividades.
-* **¿Otros?**
+-   Aumento de rentas y traslado inducido de la población más vulnerable.
+-   Financiarización de la tierra urbana en las áreas centrales y expansión de la mancha urbana.
+-   Pérdida de la diversidad socioeconómica y cultural de la zona, así como la fragmentación de las comunidades.
+-   Aumento de la desigualdad en el acceso a oportunidades urbanas.
+-   Desaparición de empleos vinculados a la existencia clústers de actividades tradicionales que son reemplazados por nuevas actividades.
+-   **¿Otros?**
 :::
 :::
 
@@ -144,17 +126,14 @@ Un 40% del espacio urbano sólo es accesible para el 10% más rico...
 :::
 
 ::: {style="font-size:30px"}
-
-* Aumento de la productividad agregada de la ciudad e inserción en la economía global.
-* Revitalización de espacios urbanos frecuentemente subutilizados por condiciones percibidas de abandono o inseguridad.
-* Aumento del empleo orientado a servicios inferiores como esparcimiento, gastronomía, entre otros.
-* Aumento de la capacidad fiscal de los gobiernos locales.
-* Densificación en el uso del suelo.
-* **¿Otros?**
+-   Aumento de la productividad agregada de la ciudad e inserción en la economía global.
+-   Revitalización de espacios urbanos frecuentemente subutilizados por condiciones percibidas de abandono o inseguridad.
+-   Aumento del empleo orientado a servicios inferiores como esparcimiento, gastronomía, entre otros.
+-   Aumento de la capacidad fiscal de los gobiernos locales.
+-   Densificación en el uso del suelo.
+-   **¿Otros?**
 :::
 :::
-
-
 
 ::: {data-title=""}
 ### Trabajo práctico.
@@ -166,20 +145,19 @@ Un 40% del espacio urbano sólo es accesible para el 10% más rico...
 
 ::: {data-title=""}
 ### Consigna
+
 ::: {style="font-size:32px"}
 En grupos de no más de 3 personas, elaborar un informe de 2 páginas (máximo) a partir de las siguientes consignas:
 
-* Vincular el proceso descripto en la investigación con los conceptos estudiados en la Unidad 7.
+-   Vincular el proceso descripto en la investigación con los conceptos estudiados en la Unidad 7.
 
-* En el texto propuesto hay una toma de posición muy marcada por parte de las y los investigadores, resaltando los efectos nocivos del proceso descripto ¿Pueden identificar algunos aspectos positivos para la Ciudad que no se estén considerando en el análisis? Desarrollar y justificar en cada caso.
+-   En el texto propuesto hay una toma de posición muy marcada por parte de las y los investigadores, resaltando los efectos nocivos del proceso descripto ¿Pueden identificar algunos aspectos positivos para la Ciudad que no se estén considerando en el análisis? Desarrollar y justificar en cada caso.
 
 Entrega: por el aula virtual *hasta antes del inicio de la próxima clase práctica*, momento en el que haremos una puesta en común y un breve debate de no más de media hora.
 :::
 :::
 
-
 ::: {data-title=""}
-
 ### Rúbrica de evaluación
 
 ::: {style="font-size:30px"}
@@ -187,10 +165,10 @@ Logra conectar el fenómeno situado en Barrio Güemes con el instrumental analí
 :::
 
 ::: {style="font-size:25px"}
-  * Identifica el efecto de estos movimientos como causa y consecuencia del aumento de la renta inmobiliaria, razonando bajo la lógica del principio de competencia espacial (**30%**).
-  * Identifica la presión inducida sobre los habitantes originales a trasladarse a otros espacios de la ciudad (**15%**).
-  * Identifica el efecto sobre la desaparición paulatina de clústers tradicionales como restauradores de muebles, reemplazados por servicios de esparcimiento (**15%**).
-  * Suma aspectos adicionales a su argumento, más allá de los detallados en la rúbrica (**10%**)
+-   Identifica el efecto de estos movimientos como causa y consecuencia del aumento de la renta inmobiliaria, razonando bajo la lógica del principio de competencia espacial (**30%**).
+-   Identifica la presión inducida sobre los habitantes originales a trasladarse a otros espacios de la ciudad (**15%**).
+-   Identifica el efecto sobre la desaparición paulatina de clústers tradicionales como restauradores de muebles, reemplazados por servicios de esparcimiento (**15%**).
+-   Suma aspectos adicionales a su argumento, más allá de los detallados en la rúbrica (**10%**)
 :::
 
 ::: {style="font-size:30px"}
@@ -198,9 +176,9 @@ Logra identificar al menos **2** aspectos positivos del fenómeno (**30%**).
 :::
 
 ::: {style="font-size:25px"}
-  * Generación de empleos en barrios tradicionales cercanos, como Las Flores, Observatorio o Bella Vista.
-  * Aumento del turismo internacional y entrada de divisas.
-  * Aumento de la densidad en el uso del suelo.
-  * Otros aspectos.
+-   Generación de empleos en barrios tradicionales cercanos, como Las Flores, Observatorio o Bella Vista.
+-   Aumento del turismo internacional y entrada de divisas.
+-   Aumento de la densidad en el uso del suelo.
+-   Otros aspectos.
 :::
 :::
